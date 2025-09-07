@@ -1,16 +1,11 @@
 [
   {
-    "id": "1725645000000",
-    "title": "Instalação elétrica — Cliente Alfa",
-    "client": "Cliente Alfa",
-    "address": "Rua das Palmeiras, 120 - Lisboa",
-    "status": "em_andamento"
-  },
-  {
     "id": "1725648000000",
-    "title": "Troca de quadro — Ed. Atlântico",
-    "client": "Condomínio Atlântico",
-    "address": "Av. do Mar, 455 - Porto",
-    "status": "concluido"
+    "number": "001",               // opcional; senão o app usa a posição
+    "date": "2025-09-07",          // opcional; se faltar, o app tenta pelo id timestamp
+    "start": "08:00",              // opcional; aceita também "startAt" ou "horaInicio"
+    "end": "17:00",                // opcional; aceita também "endAt" ou "horaFim"
+    "status": "em_andamento"       // "novo" | "em_andamento" | "concluido" | "inviavel"
   }
 ]
+
